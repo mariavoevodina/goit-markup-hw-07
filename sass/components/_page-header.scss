@@ -1,0 +1,22 @@
+.header {
+  border-bottom: 1px solid #ECECEC;
+  margin: 0 0 -1px;
+}
+
+.header span {
+  color: var(--primary-text-color);
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-icon {
+
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-icon:hover {
+  fill: #2196F3;
+}

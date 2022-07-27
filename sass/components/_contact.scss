@@ -1,0 +1,35 @@
+.contact {
+  display: flex;
+  align-items: center;
+  margin: 0 0 0 auto;
+
+}
+
+.contact__link:hover .contact__icon,
+.contact__link:focus .contact__icon {
+  fill: #2196F3;
+}
+
+.contact__link {
+  color: var(--additional-tex-color);
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+  font-weight: 500;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contact__link:hover,
+.contact__link:focus {
+  color: var(--accent-color);
+}
+
+.contact__icon {
+  margin: 0 10px 0 0;
+}
+
+.contact__link:first-child {
+  margin: 0;
+}
